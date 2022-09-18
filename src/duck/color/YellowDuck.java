@@ -12,5 +12,6 @@ public class YellowDuck implements Duck {
                 '}';
     }
 
+
     Integer engine = 0;
 }
