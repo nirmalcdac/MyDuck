@@ -1,12 +1,15 @@
 package duck.color.size;
+
 import duck.color.BlackDuck;
+
 public class BlackXLargeDuck extends BlackDuck {
-    String size = "XLarge";
+
+    public BlackXLargeDuck() {
+        super("XLarge");
+    }
+
     @Override
     public String toString() {
-        return "BlackXLargeDuck{" +
-                super.toString() +
-                "size='" + size + '\'' +
-                '}';
+        return "BlackXLargeDuck{} " + super.toString();
     }
 }

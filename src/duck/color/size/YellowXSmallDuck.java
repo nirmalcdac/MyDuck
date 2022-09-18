@@ -1,15 +1,12 @@
 package duck.color.size;
-
 import duck.color.YellowDuck;
-
 public class YellowXSmallDuck extends YellowDuck {
-    String size = "XSmall";
+    public YellowXSmallDuck() {
+        super("XSmall");
+    }
 
     @Override
     public String toString() {
-        return "YellowXSmallDuck{" +
-                super.toString() +
-                "size='" + size + '\'' +
-                '}';
+        return "YellowXSmallDuck{} " + super.toString();
     }
 }

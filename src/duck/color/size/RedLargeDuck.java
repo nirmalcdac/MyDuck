@@ -3,13 +3,13 @@ package duck.color.size;
 import duck.color.RedDuck;
 
 public class RedLargeDuck extends RedDuck {
-    String size = "Large";
+
+    public RedLargeDuck() {
+        super("Large");
+    }
 
     @Override
     public String toString() {
-        return "RedLargeDuck{" +
-                super.toString()+
-                "size='" + size + '\'' +
-                '}';
+        return "RedLargeDuck{} " + super.toString();
     }
 }

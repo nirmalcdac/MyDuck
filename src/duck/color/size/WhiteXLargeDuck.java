@@ -3,13 +3,13 @@ package duck.color.size;
 import duck.color.WhiteDuck;
 
 public class WhiteXLargeDuck extends WhiteDuck {
-    String size = "XLarge";
 
+    public WhiteXLargeDuck() {
+        super("XLarge");
+    }
     @Override
     public String toString() {
-        return "WhiteXLargeDuck{" +
-                super.toString() +
-                "size='" + size + '\'' +
-                '}';
+        return "WhiteXLargeDuck{} " + super.toString();
     }
+
 }
